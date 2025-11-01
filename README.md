@@ -1,7 +1,7 @@
 # dlt-viewer-walkthrough
 
 ## Setup
-1. Download the source code of the latest release of `dlt-viewer` from COVESA's organization. The repo can be found [here]().
+1. Download the source code of the latest release of `dlt-viewer` from COVESA's organization. The repo can be found [here](https://github.com/COVESA/dlt-viewer).
 2. Extract it, navigate to the directory.
 3. Use CMake to build and install all the dependencies.
   ```bash
