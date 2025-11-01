@@ -1,6 +1,7 @@
-# dlt-viewer-walkthrough
+# DLT Walkthrough
 
-## Setup
+## `dlt-viewer`
+### Setup
 1. Download the source code of the latest release of `dlt-viewer` from COVESA's organization. The repo can be found [here](https://github.com/COVESA/dlt-viewer).
 2. Extract it, navigate to the directory.
 3. Use CMake to build and install all the dependencies.
@@ -12,7 +13,7 @@
   ```
 4. The binary is found under `build/bin/` and named `dlt-viewer`.
 
-## Create App Icon
+### Create App Icon
 1. Create a `.desktop` file with in the path `$HOME/.local/share/applications/` under the name `dlt-viewer.desktop` with the following contents:
   ```
   [Desktop Entry]
