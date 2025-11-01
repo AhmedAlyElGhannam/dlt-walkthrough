@@ -128,11 +128,11 @@ target_link_libraries(dummy_dlt_sender PRIVATE ${DLT_LIBRARIES})
 ### Running It
 * Run `dlt-daemon` as follows:
   ```bash
-  sudo dlt-daemon -d -t /tmp
+  dlt-daemon -d -t /tmp
   ```
 * Use `chmod` on the created FIFO pipe in order for the app to access it.
   ```bash
-  sudo chmod 666 /tmp/dlt
+  sudo chmod 777 /tmp/dlt
   ```
 * Run the app after building it (it does not need special flags for building via CMake).
 * Open `dlt-viewer`, press the `Connect all ECU's or create a new one`.
